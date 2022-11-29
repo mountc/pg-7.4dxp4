@@ -1,0 +1,11 @@
+dependencies {
+	compile project(":modules:events:events-api")
+
+	compileOnly group: "com.liferay.portal", name: "release.dxp.api"
+}
+
+buildService {
+	apiDir = "../events-api/src/main/java"
+}
+
+group = "com.liferay.cs.test.events"

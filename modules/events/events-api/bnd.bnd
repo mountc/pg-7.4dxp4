@@ -1,0 +1,10 @@
+Bundle-Name: events-api
+Bundle-SymbolicName: com.liferay.cs.test.events.api
+Bundle-Version: 1.0.1
+Export-Package:\
+	com.liferay.cs.test.events.exception,\
+	com.liferay.cs.test.events.model,\
+	com.liferay.cs.test.events.service,\
+	com.liferay.cs.test.events.service.persistence
+-check: EXPORTS
+-includeresource: META-INF/service.xml=../events-service/service.xml
